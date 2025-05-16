@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Jar-Id: 
+Project-Name: k3w4-king1-base-helper
+Build-Tool: Gradle 7.6.3
+Build-Date: 2025-05-16 09:03:30
+Built-By: Kingdee Cosmic Developer Tools
+Build-Num: 20250516090330137
+App-Name: 
+Git-Branch: 
+Cloud-Name: 
+Group-Name: k3w4.cosmic
+Bundle-Version: 1.0.0
+Git-Commit-Hash: 
+Build-Image: 
+Build-Jdk: 1.8.0_152
+

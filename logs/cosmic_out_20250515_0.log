@@ -1,0 +1,1029 @@
+2025-05-15 23:10:26.851  INFO   --- [main] c.a.dubbo.common.logger.LoggerFactory    : using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2025-05-15 23:10:27.440  INFO   --- [main] kd.bos.extension.ExtensionFactory        : load extension class from jar:file:/D:/postgresql/Test/mservice/lib/mservice-cosmic/lib/bos/bos-framework-cosmicconnector-7.0.jar!/META-INF/kd/bos/extension/kd.bos.framework.lifecycle.SysServiceLayer
+2025-05-15 23:10:27.442  INFO   --- [main] kd.bos.extension.ExtensionFactory        : load extension class from jar:file:/D:/postgresql/Test/mservice/lib/mservice-cosmic/lib/bos/bos-framework-foundation-7.0.jar!/META-INF/kd/bos/extension/kd.bos.framework.lifecycle.SysServiceLayer
+2025-05-15 23:10:27.498  INFO   --- [main] kd.bos.extension.ExtensionFactory        : load extension class from jar:file:/D:/postgresql/Test/mservice/lib/mservice-cosmic/lib/bos/bos-config-client-7.0.jar!/META-INF/kd/bos/extension/kd.bos.config.client.ConfigService
+2025-05-15 23:10:27.759  INFO   --- [main] o.a.c.f.imps.CuratorFrameworkImpl        : Starting
+2025-05-15 23:10:27.781  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:zookeeper.version=3.9.2-e454e8c7283100c7caec6dcae2bc82aaecb63023, built on 2024-02-12 20:59 UTC
+2025-05-15 23:10:27.781  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:host.name=LAPTOP-IL8INI1O
+2025-05-15 23:10:27.781  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.version=1.8.0_152
+2025-05-15 23:10:27.781  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.vendor=Oracle Corporation
+2025-05-15 23:10:27.782  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.home=D:\SoftWare\JDK\jdk8\jre
+2025-05-15 23:10:27.782  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.class.path=C:\Users\云深\.gradle\.tmp\gradle-javaexec-classpath2076570899775560992.jar
+2025-05-15 23:10:27.782  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.library.path=D:\SoftWare\JDK\jdk8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\SoftWare\JDK\jdk8\bin;D:\SoftWare\Cudaextra\bin;D:\SoftWare\Cudaextra\libnvvp;D:\SoftWare\anaconda;D:\SoftWare\anaconda\Library\mingw-w64\bin;D:\SoftWare\anaconda\Library\usr\bin;D:\SoftWare\anaconda\Library\bin;D:\SoftWare\anaconda\Scripts;D:\SoftWare\VMWARE\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\SoftWare\MATLAB\bin;C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.3.0\;D:\python3.12\Scripts\;D:\python3.12\;C:\Users\云深\AppData\Local\Microsoft\WindowsApps;D:\SoftWare\PyCharm 2025.1\bin;;D:\SoftWare\cursor\cursor\resources\app\bin;D:\SoftWare\vscode\Microsoft VS Code\bin;D:\SoftWare\IDEA\IntelliJ IDEA 2023.2.8\bin;;.
+2025-05-15 23:10:27.782  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.io.tmpdir=C:\Users\云深\AppData\Local\Temp\
+2025-05-15 23:10:27.782  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.compiler=<NA>
+2025-05-15 23:10:27.782  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.name=Windows 10
+2025-05-15 23:10:27.782  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.arch=amd64
+2025-05-15 23:10:27.782  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.version=10.0
+2025-05-15 23:10:27.782  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:user.name=ys
+2025-05-15 23:10:27.782  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:user.home=C:\Users\云深
+2025-05-15 23:10:27.782  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:user.dir=D:\workspace\cosmic
+2025-05-15 23:10:27.784  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.memory.free=220MB
+2025-05-15 23:10:27.784  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.memory.max=3580MB
+2025-05-15 23:10:27.784  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.memory.total=673MB
+2025-05-15 23:10:27.793  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Initiating client connection, connectString=http: sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@65c86db8
+2025-05-15 23:10:28.384  INFO   --- [main] org.apache.zookeeper.common.X509Util     : Default TLS protocol is TLSv1.2, supported TLS protocols are [SSLv2Hello, SSLv3, TLSv1, TLSv1.1, TLSv1.2]
+2025-05-15 23:10:28.426  INFO   --- [main] org.apache.zookeeper.ClientCnxnSocket    : jute.maxbuffer value is 1048575 Bytes
+2025-05-15 23:10:28.448  INFO   --- [main] org.apache.zookeeper.ClientCnxn          : zookeeper.request.timeout value is 0. feature enabled=false
+2025-05-15 23:10:28.480  INFO   --- [main] o.a.c.f.imps.CuratorFrameworkImpl        : Default schema
+2025-05-15 23:10:28.523 ERROR   --- [main] k.b.config.client.ConfigurationFactory   : get ConfigurationFactory Impl from env error,will use default 
+java.lang.IllegalArgumentException: Invalid path string "//10.0.0.2:2182/cosmic/config/common/var" caused by empty node name specified @1
+	at org.apache.curator.utils.PathUtils.validatePath(PathUtils.java:103)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.<init>(PathChildrenCache.java:226)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.<init>(PathChildrenCache.java:178)
+	at kd.bos.config.client.zk.ZooKeeperConfigurationSource.<init>(ZooKeeperConfigurationSource.java:82)
+	at kd.bos.config.client.zk.ZookeeperConfiguration.<init>(ZookeeperConfiguration.java:20)
+	at kd.bos.config.client.zk.ZookeeperConfigService.setConfigAppName(ZookeeperConfigService.java:31)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.initVar(ConfigurationFactoryNew.java:173)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.init(ConfigurationFactoryNew.java:113)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.<init>(ConfigurationFactoryNew.java:64)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at kd.bos.config.client.ConfigurationFactory.<clinit>(ConfigurationFactory.java:14)
+	at kd.bos.framework.lifecycle.services.ConfigurationService.start(ConfigurationService.java:23)
+	at kd.bos.service.bootstrap.Booter.main(Booter.java:55)
+	at kd.cosmic.debug.tools.CosmicLauncher.start(CosmicLauncher.java:129)
+	at k3w4.cosmic.debug.DebugApplication.main(DebugApplication.java:40)
+2025-05-15 23:10:31.138 ERROR   --- [main-SendThread()] o.a.zookeeper.client.StaticHostProvider  : Unable to resolve address: http:2181
+java.net.UnknownHostException: http
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.zookeeper.client.StaticHostProvider$1.getAllByName(StaticHostProvider.java:88)
+	at org.apache.zookeeper.client.StaticHostProvider.resolve(StaticHostProvider.java:141)
+	at org.apache.zookeeper.client.StaticHostProvider.next(StaticHostProvider.java:368)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1224)
+2025-05-15 23:10:31.138  INFO   --- [main-SendThread(http:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server http:2181.
+2025-05-15 23:10:31.139 ERROR   --- [main-SendThread(http:2181)] o.apache.zookeeper.ClientCnxnSocketNIO   : Unable to open socket to http:2181
+2025-05-15 23:13:31.987  INFO   --- [main] c.a.dubbo.common.logger.LoggerFactory    : using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2025-05-15 23:14:25.651  INFO   --- [main] c.a.dubbo.common.logger.LoggerFactory    : using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2025-05-15 23:14:48.892  INFO   --- [main] kd.bos.extension.ExtensionFactory        : load extension class from jar:file:/D:/postgresql/Test/mservice/lib/mservice-cosmic/lib/bos/bos-framework-cosmicconnector-7.0.jar!/META-INF/kd/bos/extension/kd.bos.framework.lifecycle.SysServiceLayer
+2025-05-15 23:14:48.895  INFO   --- [main] kd.bos.extension.ExtensionFactory        : load extension class from jar:file:/D:/postgresql/Test/mservice/lib/mservice-cosmic/lib/bos/bos-framework-foundation-7.0.jar!/META-INF/kd/bos/extension/kd.bos.framework.lifecycle.SysServiceLayer
+2025-05-15 23:14:48.975  INFO   --- [main] kd.bos.extension.ExtensionFactory        : load extension class from jar:file:/D:/postgresql/Test/mservice/lib/mservice-cosmic/lib/bos/bos-config-client-7.0.jar!/META-INF/kd/bos/extension/kd.bos.config.client.ConfigService
+2025-05-15 23:14:49.252  INFO   --- [main] o.a.c.f.imps.CuratorFrameworkImpl        : Starting
+2025-05-15 23:14:49.275  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:zookeeper.version=3.9.2-e454e8c7283100c7caec6dcae2bc82aaecb63023, built on 2024-02-12 20:59 UTC
+2025-05-15 23:14:49.275  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:host.name=LAPTOP-IL8INI1O
+2025-05-15 23:14:49.275  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.version=1.8.0_152
+2025-05-15 23:14:49.275  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.vendor=Oracle Corporation
+2025-05-15 23:14:49.275  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.home=D:\SoftWare\JDK\jdk8\jre
+2025-05-15 23:14:49.275  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.class.path=C:\Users\云深\.gradle\.tmp\gradle-javaexec-classpath2944818457978911403.jar
+2025-05-15 23:14:49.275  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.library.path=D:\SoftWare\JDK\jdk8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\SoftWare\JDK\jdk8\bin;D:\SoftWare\Cudaextra\bin;D:\SoftWare\Cudaextra\libnvvp;D:\SoftWare\anaconda;D:\SoftWare\anaconda\Library\mingw-w64\bin;D:\SoftWare\anaconda\Library\usr\bin;D:\SoftWare\anaconda\Library\bin;D:\SoftWare\anaconda\Scripts;D:\SoftWare\VMWARE\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\SoftWare\MATLAB\bin;C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.3.0\;D:\python3.12\Scripts\;D:\python3.12\;C:\Users\云深\AppData\Local\Microsoft\WindowsApps;D:\SoftWare\PyCharm 2025.1\bin;;D:\SoftWare\cursor\cursor\resources\app\bin;D:\SoftWare\vscode\Microsoft VS Code\bin;D:\SoftWare\IDEA\IntelliJ IDEA 2023.2.8\bin;;.
+2025-05-15 23:14:49.275  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.io.tmpdir=C:\Users\云深\AppData\Local\Temp\
+2025-05-15 23:14:49.275  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.compiler=<NA>
+2025-05-15 23:14:49.275  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.name=Windows 10
+2025-05-15 23:14:49.275  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.arch=amd64
+2025-05-15 23:14:49.275  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.version=10.0
+2025-05-15 23:14:49.275  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:user.name=ys
+2025-05-15 23:14:49.276  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:user.home=C:\Users\云深
+2025-05-15 23:14:49.276  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:user.dir=D:\workspace\cosmic
+2025-05-15 23:14:49.276  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.memory.free=210MB
+2025-05-15 23:14:49.276  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.memory.max=3580MB
+2025-05-15 23:14:49.276  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.memory.total=674MB
+2025-05-15 23:14:49.283  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Initiating client connection, connectString=http: sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@6cd64b3f
+2025-05-15 23:14:49.992  INFO   --- [main] org.apache.zookeeper.common.X509Util     : Default TLS protocol is TLSv1.2, supported TLS protocols are [SSLv2Hello, SSLv3, TLSv1, TLSv1.1, TLSv1.2]
+2025-05-15 23:14:50.040  INFO   --- [main] org.apache.zookeeper.ClientCnxnSocket    : jute.maxbuffer value is 1048575 Bytes
+2025-05-15 23:14:50.063  INFO   --- [main] org.apache.zookeeper.ClientCnxn          : zookeeper.request.timeout value is 0. feature enabled=false
+2025-05-15 23:14:50.101  INFO   --- [main] o.a.c.f.imps.CuratorFrameworkImpl        : Default schema
+2025-05-15 23:14:50.120 ERROR   --- [main] k.b.config.client.ConfigurationFactory   : get ConfigurationFactory Impl from env error,will use default 
+java.lang.IllegalArgumentException: Invalid path string "//10.0.0.2:2182/cosmic/config/common/var" caused by empty node name specified @1
+	at org.apache.curator.utils.PathUtils.validatePath(PathUtils.java:103)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.<init>(PathChildrenCache.java:226)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.<init>(PathChildrenCache.java:178)
+	at kd.bos.config.client.zk.ZooKeeperConfigurationSource.<init>(ZooKeeperConfigurationSource.java:82)
+	at kd.bos.config.client.zk.ZookeeperConfiguration.<init>(ZookeeperConfiguration.java:20)
+	at kd.bos.config.client.zk.ZookeeperConfigService.setConfigAppName(ZookeeperConfigService.java:31)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.initVar(ConfigurationFactoryNew.java:173)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.init(ConfigurationFactoryNew.java:113)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.<init>(ConfigurationFactoryNew.java:64)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at kd.bos.config.client.ConfigurationFactory.<clinit>(ConfigurationFactory.java:14)
+	at kd.bos.framework.lifecycle.services.ConfigurationService.start(ConfigurationService.java:23)
+	at kd.bos.service.bootstrap.Booter.main(Booter.java:55)
+	at kd.cosmic.debug.tools.CosmicLauncher.start(CosmicLauncher.java:129)
+	at k3w4.cosmic.debug.DebugApplication.main(DebugApplication.java:40)
+2025-05-15 23:15:01.835 ERROR   --- [main-SendThread()] o.a.zookeeper.client.StaticHostProvider  : Unable to resolve address: http:2181
+java.net.UnknownHostException: http
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.zookeeper.client.StaticHostProvider$1.getAllByName(StaticHostProvider.java:88)
+	at org.apache.zookeeper.client.StaticHostProvider.resolve(StaticHostProvider.java:141)
+	at org.apache.zookeeper.client.StaticHostProvider.next(StaticHostProvider.java:368)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1224)
+2025-05-15 23:15:01.836  INFO   --- [main-SendThread(http:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server http:2181.
+2025-05-15 23:15:01.836 ERROR   --- [main-SendThread(http:2181)] o.apache.zookeeper.ClientCnxnSocketNIO   : Unable to open socket to http:2181
+2025-05-15 23:15:01.969  INFO   --- [Thread-1] org.apache.zookeeper.ZooKeeper           : Session: 0x0 closed
+2025-05-15 23:15:01.969  INFO   --- [Thread-1] kd.bos.zk.ZKFactory                      : close zookeeperConnection on shutdown
+2025-05-15 23:17:07.402  INFO   --- [main] c.a.dubbo.common.logger.LoggerFactory    : using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2025-05-15 23:17:08.005  INFO   --- [main] kd.bos.extension.ExtensionFactory        : load extension class from jar:file:/D:/postgresql/Test/mservice/lib/mservice-cosmic/lib/bos/bos-framework-cosmicconnector-7.0.jar!/META-INF/kd/bos/extension/kd.bos.framework.lifecycle.SysServiceLayer
+2025-05-15 23:17:08.006  INFO   --- [main] kd.bos.extension.ExtensionFactory        : load extension class from jar:file:/D:/postgresql/Test/mservice/lib/mservice-cosmic/lib/bos/bos-framework-foundation-7.0.jar!/META-INF/kd/bos/extension/kd.bos.framework.lifecycle.SysServiceLayer
+2025-05-15 23:17:08.053  INFO   --- [main] kd.bos.extension.ExtensionFactory        : load extension class from jar:file:/D:/postgresql/Test/mservice/lib/mservice-cosmic/lib/bos/bos-config-client-7.0.jar!/META-INF/kd/bos/extension/kd.bos.config.client.ConfigService
+2025-05-15 23:17:08.288  INFO   --- [main] o.a.c.f.imps.CuratorFrameworkImpl        : Starting
+2025-05-15 23:17:08.319  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:zookeeper.version=3.9.2-e454e8c7283100c7caec6dcae2bc82aaecb63023, built on 2024-02-12 20:59 UTC
+2025-05-15 23:17:08.319  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:host.name=LAPTOP-IL8INI1O
+2025-05-15 23:17:08.319  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.version=1.8.0_152
+2025-05-15 23:17:08.319  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.vendor=Oracle Corporation
+2025-05-15 23:17:08.319  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.home=D:\SoftWare\JDK\jdk8\jre
+2025-05-15 23:17:08.319  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.class.path=C:\Users\云深\.gradle\.tmp\gradle-javaexec-classpath5201120186782396662.jar
+2025-05-15 23:17:08.319  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.library.path=D:\SoftWare\JDK\jdk8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\SoftWare\JDK\jdk8\bin;D:\SoftWare\Cudaextra\bin;D:\SoftWare\Cudaextra\libnvvp;D:\SoftWare\anaconda;D:\SoftWare\anaconda\Library\mingw-w64\bin;D:\SoftWare\anaconda\Library\usr\bin;D:\SoftWare\anaconda\Library\bin;D:\SoftWare\anaconda\Scripts;D:\SoftWare\VMWARE\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\SoftWare\MATLAB\bin;C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.3.0\;D:\python3.12\Scripts\;D:\python3.12\;C:\Users\云深\AppData\Local\Microsoft\WindowsApps;D:\SoftWare\PyCharm 2025.1\bin;;D:\SoftWare\cursor\cursor\resources\app\bin;D:\SoftWare\vscode\Microsoft VS Code\bin;D:\SoftWare\IDEA\IntelliJ IDEA 2023.2.8\bin;;.
+2025-05-15 23:17:08.319  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.io.tmpdir=C:\Users\云深\AppData\Local\Temp\
+2025-05-15 23:17:08.319  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.compiler=<NA>
+2025-05-15 23:17:08.319  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.name=Windows 10
+2025-05-15 23:17:08.319  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.arch=amd64
+2025-05-15 23:17:08.319  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.version=10.0
+2025-05-15 23:17:08.319  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:user.name=ys
+2025-05-15 23:17:08.319  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:user.home=C:\Users\云深
+2025-05-15 23:17:08.319  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:user.dir=D:\workspace\cosmic
+2025-05-15 23:17:08.321  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.memory.free=204MB
+2025-05-15 23:17:08.321  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.memory.max=3580MB
+2025-05-15 23:17:08.321  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.memory.total=673MB
+2025-05-15 23:17:08.330  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Initiating client connection, connectString=10.0.0.2:2182 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@ac20bb4
+2025-05-15 23:17:08.995  INFO   --- [main] org.apache.zookeeper.common.X509Util     : Default TLS protocol is TLSv1.2, supported TLS protocols are [SSLv2Hello, SSLv3, TLSv1, TLSv1.1, TLSv1.2]
+2025-05-15 23:17:09.026  INFO   --- [main] org.apache.zookeeper.ClientCnxnSocket    : jute.maxbuffer value is 1048575 Bytes
+2025-05-15 23:17:09.046  INFO   --- [main] org.apache.zookeeper.ClientCnxn          : zookeeper.request.timeout value is 0. feature enabled=false
+2025-05-15 23:17:09.063  INFO   --- [main-SendThread(10.0.0.2:2182)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server /10.0.0.2:2182.
+2025-05-15 23:17:09.065  INFO   --- [main-SendThread(10.0.0.2:2182)] org.apache.zookeeper.ClientCnxn          : Socket connection established, initiating session, client: /10.0.0.2:52362, server: /10.0.0.2:2182
+2025-05-15 23:17:09.092  INFO   --- [main] o.a.c.f.imps.CuratorFrameworkImpl        : Default schema
+2025-05-15 23:17:09.099  INFO   --- [main-SendThread(10.0.0.2:2182)] org.apache.zookeeper.ClientCnxn          : Session establishment complete on server /10.0.0.2:2182, session id = 0x1000bc89112000c, negotiated timeout = 60000
+2025-05-15 23:17:09.110  INFO   --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: CONNECTED
+2025-05-15 23:17:09.124  INFO   --- [main-EventThread] o.a.c.framework.imps.EnsembleTracker     : New config event received: {}
+2025-05-15 23:17:09.124  INFO   --- [main-EventThread] o.a.c.framework.imps.EnsembleTracker     : New config event received: {}
+2025-05-15 23:17:09.162 ERROR   --- [main] kd.bos.zk.CuratorFrameworkWrapper        : path: /cosmic/config/common/var
+org.apache.zookeeper.KeeperException$NoAuthException: KeeperErrorCode = NoAuth for /cosmic
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:119)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:53)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1869)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1893)
+	at org.apache.curator.utils.ZKPaths.mkdirs(ZKPaths.java:334)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl$2.call(ExistsBuilderImpl.java:231)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl$2.call(ExistsBuilderImpl.java:225)
+	at org.apache.curator.RetryLoop.callWithRetry(RetryLoop.java:94)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.pathInForeground(ExistsBuilderImpl.java:222)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.forPath(ExistsBuilderImpl.java:207)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.forPath(ExistsBuilderImpl.java:36)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.createContainers(CuratorFrameworkImpl.java:295)
+	at kd.bos.zk.CuratorFrameworkWrapper.createContainers(CuratorFrameworkWrapper.java:90)
+	at org.apache.curator.framework.EnsureContainers.internalEnsure(EnsureContainers.java:70)
+	at org.apache.curator.framework.EnsureContainers.ensure(EnsureContainers.java:54)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.ensurePath(PathChildrenCache.java:590)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.rebuild(PathChildrenCache.java:330)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.start(PathChildrenCache.java:307)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.start(PathChildrenCache.java:255)
+	at kd.bos.config.client.zk.ZooKeeperConfigurationSource.start(ZooKeeperConfigurationSource.java:134)
+	at kd.bos.config.client.zk.ZookeeperConfiguration.<init>(ZookeeperConfiguration.java:22)
+	at kd.bos.config.client.zk.ZookeeperConfigService.setConfigAppName(ZookeeperConfigService.java:31)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.initVar(ConfigurationFactoryNew.java:173)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.init(ConfigurationFactoryNew.java:113)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.<init>(ConfigurationFactoryNew.java:64)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at kd.bos.config.client.ConfigurationFactory.<clinit>(ConfigurationFactory.java:14)
+	at kd.bos.framework.lifecycle.services.ConfigurationService.start(ConfigurationService.java:23)
+	at kd.bos.service.bootstrap.Booter.main(Booter.java:55)
+	at kd.cosmic.debug.tools.CosmicLauncher.start(CosmicLauncher.java:129)
+	at k3w4.cosmic.debug.DebugApplication.main(DebugApplication.java:40)
+2025-05-15 23:17:09.209 ERROR   --- [main] k.b.config.client.ConfigurationFactory   : get ConfigurationFactory Impl from env error,will use default 
+kd.bos.exception.KDException: zookeeper config error: %s
+	at kd.bos.config.client.zk.ZookeeperConfiguration.<init>(ZookeeperConfiguration.java:24)
+	at kd.bos.config.client.zk.ZookeeperConfigService.setConfigAppName(ZookeeperConfigService.java:31)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.initVar(ConfigurationFactoryNew.java:173)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.init(ConfigurationFactoryNew.java:113)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.<init>(ConfigurationFactoryNew.java:64)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at kd.bos.config.client.ConfigurationFactory.<clinit>(ConfigurationFactory.java:14)
+	at kd.bos.framework.lifecycle.services.ConfigurationService.start(ConfigurationService.java:23)
+	at kd.bos.service.bootstrap.Booter.main(Booter.java:55)
+	at kd.cosmic.debug.tools.CosmicLauncher.start(CosmicLauncher.java:129)
+	at k3w4.cosmic.debug.DebugApplication.main(DebugApplication.java:40)
+Caused by: kd.bos.exception.KDException: start zookeeper failed
+	at kd.bos.config.client.zk.ZooKeeperConfigurationSource.start(ZooKeeperConfigurationSource.java:136)
+	at kd.bos.config.client.zk.ZookeeperConfiguration.<init>(ZookeeperConfiguration.java:22)
+	... 14 common frames omitted
+Caused by: kd.bos.exception.KDException: KeeperErrorCode = NoAuth for /cosmic
+	at kd.bos.zk.CuratorFrameworkWrapper.createContainers(CuratorFrameworkWrapper.java:93)
+	at org.apache.curator.framework.EnsureContainers.internalEnsure(EnsureContainers.java:70)
+	at org.apache.curator.framework.EnsureContainers.ensure(EnsureContainers.java:54)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.ensurePath(PathChildrenCache.java:590)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.rebuild(PathChildrenCache.java:330)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.start(PathChildrenCache.java:307)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.start(PathChildrenCache.java:255)
+	at kd.bos.config.client.zk.ZooKeeperConfigurationSource.start(ZooKeeperConfigurationSource.java:134)
+	... 15 common frames omitted
+Caused by: org.apache.zookeeper.KeeperException$NoAuthException: KeeperErrorCode = NoAuth for /cosmic
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:119)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:53)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1869)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1893)
+	at org.apache.curator.utils.ZKPaths.mkdirs(ZKPaths.java:334)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl$2.call(ExistsBuilderImpl.java:231)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl$2.call(ExistsBuilderImpl.java:225)
+	at org.apache.curator.RetryLoop.callWithRetry(RetryLoop.java:94)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.pathInForeground(ExistsBuilderImpl.java:222)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.forPath(ExistsBuilderImpl.java:207)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.forPath(ExistsBuilderImpl.java:36)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.createContainers(CuratorFrameworkImpl.java:295)
+	at kd.bos.zk.CuratorFrameworkWrapper.createContainers(CuratorFrameworkWrapper.java:90)
+	... 22 common frames omitted
+2025-05-15 23:17:09.222 ERROR   --- [main] kd.bos.zk.CuratorFrameworkWrapper        : path: /cosmic/config/common/var
+org.apache.zookeeper.KeeperException$NoAuthException: KeeperErrorCode = NoAuth for /cosmic
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:119)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:53)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1869)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1893)
+	at org.apache.curator.utils.ZKPaths.mkdirs(ZKPaths.java:334)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl$2.call(ExistsBuilderImpl.java:231)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl$2.call(ExistsBuilderImpl.java:225)
+	at org.apache.curator.RetryLoop.callWithRetry(RetryLoop.java:94)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.pathInForeground(ExistsBuilderImpl.java:222)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.forPath(ExistsBuilderImpl.java:207)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.forPath(ExistsBuilderImpl.java:36)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.createContainers(CuratorFrameworkImpl.java:295)
+	at kd.bos.zk.CuratorFrameworkWrapper.createContainers(CuratorFrameworkWrapper.java:90)
+	at org.apache.curator.framework.EnsureContainers.internalEnsure(EnsureContainers.java:70)
+	at org.apache.curator.framework.EnsureContainers.ensure(EnsureContainers.java:54)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.ensurePath(PathChildrenCache.java:590)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.rebuild(PathChildrenCache.java:330)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.start(PathChildrenCache.java:307)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.start(PathChildrenCache.java:255)
+	at kd.bos.config.client.zk.ZooKeeperConfigurationSource.start(ZooKeeperConfigurationSource.java:134)
+	at kd.bos.config.client.zk.ZookeeperConfiguration.<init>(ZookeeperConfiguration.java:22)
+	at kd.bos.config.client.zk.ZookeeperConfigService.setConfigAppName(ZookeeperConfigService.java:31)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.initVar(ConfigurationFactoryNew.java:173)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.init(ConfigurationFactoryNew.java:113)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.<init>(ConfigurationFactoryNew.java:64)
+	at kd.bos.config.client.ConfigurationFactory.<clinit>(ConfigurationFactory.java:17)
+	at kd.bos.framework.lifecycle.services.ConfigurationService.start(ConfigurationService.java:23)
+	at kd.bos.service.bootstrap.Booter.main(Booter.java:55)
+	at kd.cosmic.debug.tools.CosmicLauncher.start(CosmicLauncher.java:129)
+	at k3w4.cosmic.debug.DebugApplication.main(DebugApplication.java:40)
+2025-05-15 23:21:04.103  INFO   --- [main] c.a.dubbo.common.logger.LoggerFactory    : using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2025-05-15 23:22:12.549  INFO   --- [main] c.a.dubbo.common.logger.LoggerFactory    : using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2025-05-15 23:22:13.155  INFO   --- [main] kd.bos.extension.ExtensionFactory        : load extension class from jar:file:/D:/postgresql/Test/mservice/lib/mservice-cosmic/lib/bos/bos-framework-cosmicconnector-7.0.jar!/META-INF/kd/bos/extension/kd.bos.framework.lifecycle.SysServiceLayer
+2025-05-15 23:22:13.158  INFO   --- [main] kd.bos.extension.ExtensionFactory        : load extension class from jar:file:/D:/postgresql/Test/mservice/lib/mservice-cosmic/lib/bos/bos-framework-foundation-7.0.jar!/META-INF/kd/bos/extension/kd.bos.framework.lifecycle.SysServiceLayer
+2025-05-15 23:22:13.217  INFO   --- [main] kd.bos.extension.ExtensionFactory        : load extension class from jar:file:/D:/postgresql/Test/mservice/lib/mservice-cosmic/lib/bos/bos-config-client-7.0.jar!/META-INF/kd/bos/extension/kd.bos.config.client.ConfigService
+2025-05-15 23:22:13.485  INFO   --- [main] o.a.c.f.imps.CuratorFrameworkImpl        : Starting
+2025-05-15 23:22:13.508  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:zookeeper.version=3.9.2-e454e8c7283100c7caec6dcae2bc82aaecb63023, built on 2024-02-12 20:59 UTC
+2025-05-15 23:22:13.508  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:host.name=LAPTOP-IL8INI1O
+2025-05-15 23:22:13.508  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.version=1.8.0_152
+2025-05-15 23:22:13.508  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.vendor=Oracle Corporation
+2025-05-15 23:22:13.508  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.home=D:\SoftWare\JDK\jdk8\jre
+2025-05-15 23:22:13.508  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.class.path=C:\Users\云深\.gradle\.tmp\gradle-javaexec-classpath5372255898775473396.jar
+2025-05-15 23:22:13.508  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.library.path=D:\SoftWare\JDK\jdk8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\SoftWare\JDK\jdk8\bin;D:\SoftWare\Cudaextra\bin;D:\SoftWare\Cudaextra\libnvvp;D:\SoftWare\anaconda;D:\SoftWare\anaconda\Library\mingw-w64\bin;D:\SoftWare\anaconda\Library\usr\bin;D:\SoftWare\anaconda\Library\bin;D:\SoftWare\anaconda\Scripts;D:\SoftWare\VMWARE\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\SoftWare\MATLAB\bin;C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.3.0\;D:\python3.12\Scripts\;D:\python3.12\;C:\Users\云深\AppData\Local\Microsoft\WindowsApps;D:\SoftWare\PyCharm 2025.1\bin;;D:\SoftWare\cursor\cursor\resources\app\bin;D:\SoftWare\vscode\Microsoft VS Code\bin;D:\SoftWare\IDEA\IntelliJ IDEA 2023.2.8\bin;;.
+2025-05-15 23:22:13.508  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.io.tmpdir=C:\Users\云深\AppData\Local\Temp\
+2025-05-15 23:22:13.508  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.compiler=<NA>
+2025-05-15 23:22:13.508  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.name=Windows 10
+2025-05-15 23:22:13.508  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.arch=amd64
+2025-05-15 23:22:13.508  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.version=10.0
+2025-05-15 23:22:13.508  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:user.name=ys
+2025-05-15 23:22:13.508  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:user.home=C:\Users\云深
+2025-05-15 23:22:13.508  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:user.dir=D:\workspace\cosmic
+2025-05-15 23:22:13.509  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.memory.free=211MB
+2025-05-15 23:22:13.510  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.memory.max=3580MB
+2025-05-15 23:22:13.510  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.memory.total=674MB
+2025-05-15 23:22:13.517  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Initiating client connection, connectString=10.0.0.2:2182 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@ac20bb4
+2025-05-15 23:22:14.280  INFO   --- [main] org.apache.zookeeper.common.X509Util     : Default TLS protocol is TLSv1.2, supported TLS protocols are [SSLv2Hello, SSLv3, TLSv1, TLSv1.1, TLSv1.2]
+2025-05-15 23:22:14.316  INFO   --- [main] org.apache.zookeeper.ClientCnxnSocket    : jute.maxbuffer value is 1048575 Bytes
+2025-05-15 23:22:14.338  INFO   --- [main] org.apache.zookeeper.ClientCnxn          : zookeeper.request.timeout value is 0. feature enabled=false
+2025-05-15 23:22:14.341  INFO   --- [main-SendThread(10.0.0.2:2182)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server /10.0.0.2:2182.
+2025-05-15 23:22:14.342  INFO   --- [main-SendThread(10.0.0.2:2182)] org.apache.zookeeper.ClientCnxn          : Socket connection established, initiating session, client: /10.0.0.2:53797, server: /10.0.0.2:2182
+2025-05-15 23:22:14.359  INFO   --- [main-SendThread(10.0.0.2:2182)] org.apache.zookeeper.ClientCnxn          : Session establishment complete on server /10.0.0.2:2182, session id = 0x1000bc89112000d, negotiated timeout = 60000
+2025-05-15 23:22:14.386  INFO   --- [main] o.a.c.f.imps.CuratorFrameworkImpl        : Default schema
+2025-05-15 23:22:14.388  INFO   --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: CONNECTED
+2025-05-15 23:22:14.395  INFO   --- [main-EventThread] o.a.c.framework.imps.EnsembleTracker     : New config event received: {}
+2025-05-15 23:22:14.395  INFO   --- [main-EventThread] o.a.c.framework.imps.EnsembleTracker     : New config event received: {}
+2025-05-15 23:22:14.452 ERROR   --- [main] kd.bos.zk.CuratorFrameworkWrapper        : path: /cosmic/config/common/var
+org.apache.zookeeper.KeeperException$NoAuthException: KeeperErrorCode = NoAuth for /cosmic
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:119)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:53)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1869)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1893)
+	at org.apache.curator.utils.ZKPaths.mkdirs(ZKPaths.java:334)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl$2.call(ExistsBuilderImpl.java:231)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl$2.call(ExistsBuilderImpl.java:225)
+	at org.apache.curator.RetryLoop.callWithRetry(RetryLoop.java:94)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.pathInForeground(ExistsBuilderImpl.java:222)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.forPath(ExistsBuilderImpl.java:207)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.forPath(ExistsBuilderImpl.java:36)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.createContainers(CuratorFrameworkImpl.java:295)
+	at kd.bos.zk.CuratorFrameworkWrapper.createContainers(CuratorFrameworkWrapper.java:90)
+	at org.apache.curator.framework.EnsureContainers.internalEnsure(EnsureContainers.java:70)
+	at org.apache.curator.framework.EnsureContainers.ensure(EnsureContainers.java:54)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.ensurePath(PathChildrenCache.java:590)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.rebuild(PathChildrenCache.java:330)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.start(PathChildrenCache.java:307)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.start(PathChildrenCache.java:255)
+	at kd.bos.config.client.zk.ZooKeeperConfigurationSource.start(ZooKeeperConfigurationSource.java:134)
+	at kd.bos.config.client.zk.ZookeeperConfiguration.<init>(ZookeeperConfiguration.java:22)
+	at kd.bos.config.client.zk.ZookeeperConfigService.setConfigAppName(ZookeeperConfigService.java:31)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.initVar(ConfigurationFactoryNew.java:173)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.init(ConfigurationFactoryNew.java:113)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.<init>(ConfigurationFactoryNew.java:64)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at kd.bos.config.client.ConfigurationFactory.<clinit>(ConfigurationFactory.java:14)
+	at kd.bos.framework.lifecycle.services.ConfigurationService.start(ConfigurationService.java:23)
+	at kd.bos.service.bootstrap.Booter.main(Booter.java:55)
+	at kd.cosmic.debug.tools.CosmicLauncher.start(CosmicLauncher.java:129)
+	at k3w4.cosmic.debug.DebugApplication.main(DebugApplication.java:40)
+2025-05-15 23:22:14.502 ERROR   --- [main] k.b.config.client.ConfigurationFactory   : get ConfigurationFactory Impl from env error,will use default 
+kd.bos.exception.KDException: zookeeper config error: %s
+	at kd.bos.config.client.zk.ZookeeperConfiguration.<init>(ZookeeperConfiguration.java:24)
+	at kd.bos.config.client.zk.ZookeeperConfigService.setConfigAppName(ZookeeperConfigService.java:31)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.initVar(ConfigurationFactoryNew.java:173)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.init(ConfigurationFactoryNew.java:113)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.<init>(ConfigurationFactoryNew.java:64)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at kd.bos.config.client.ConfigurationFactory.<clinit>(ConfigurationFactory.java:14)
+	at kd.bos.framework.lifecycle.services.ConfigurationService.start(ConfigurationService.java:23)
+	at kd.bos.service.bootstrap.Booter.main(Booter.java:55)
+	at kd.cosmic.debug.tools.CosmicLauncher.start(CosmicLauncher.java:129)
+	at k3w4.cosmic.debug.DebugApplication.main(DebugApplication.java:40)
+Caused by: kd.bos.exception.KDException: start zookeeper failed
+	at kd.bos.config.client.zk.ZooKeeperConfigurationSource.start(ZooKeeperConfigurationSource.java:136)
+	at kd.bos.config.client.zk.ZookeeperConfiguration.<init>(ZookeeperConfiguration.java:22)
+	... 14 common frames omitted
+Caused by: kd.bos.exception.KDException: KeeperErrorCode = NoAuth for /cosmic
+	at kd.bos.zk.CuratorFrameworkWrapper.createContainers(CuratorFrameworkWrapper.java:93)
+	at org.apache.curator.framework.EnsureContainers.internalEnsure(EnsureContainers.java:70)
+	at org.apache.curator.framework.EnsureContainers.ensure(EnsureContainers.java:54)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.ensurePath(PathChildrenCache.java:590)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.rebuild(PathChildrenCache.java:330)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.start(PathChildrenCache.java:307)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.start(PathChildrenCache.java:255)
+	at kd.bos.config.client.zk.ZooKeeperConfigurationSource.start(ZooKeeperConfigurationSource.java:134)
+	... 15 common frames omitted
+Caused by: org.apache.zookeeper.KeeperException$NoAuthException: KeeperErrorCode = NoAuth for /cosmic
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:119)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:53)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1869)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1893)
+	at org.apache.curator.utils.ZKPaths.mkdirs(ZKPaths.java:334)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl$2.call(ExistsBuilderImpl.java:231)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl$2.call(ExistsBuilderImpl.java:225)
+	at org.apache.curator.RetryLoop.callWithRetry(RetryLoop.java:94)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.pathInForeground(ExistsBuilderImpl.java:222)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.forPath(ExistsBuilderImpl.java:207)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.forPath(ExistsBuilderImpl.java:36)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.createContainers(CuratorFrameworkImpl.java:295)
+	at kd.bos.zk.CuratorFrameworkWrapper.createContainers(CuratorFrameworkWrapper.java:90)
+	... 22 common frames omitted
+2025-05-15 23:22:14.513 ERROR   --- [main] kd.bos.zk.CuratorFrameworkWrapper        : path: /cosmic/config/common/var
+org.apache.zookeeper.KeeperException$NoAuthException: KeeperErrorCode = NoAuth for /cosmic
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:119)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:53)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1869)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1893)
+	at org.apache.curator.utils.ZKPaths.mkdirs(ZKPaths.java:334)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl$2.call(ExistsBuilderImpl.java:231)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl$2.call(ExistsBuilderImpl.java:225)
+	at org.apache.curator.RetryLoop.callWithRetry(RetryLoop.java:94)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.pathInForeground(ExistsBuilderImpl.java:222)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.forPath(ExistsBuilderImpl.java:207)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.forPath(ExistsBuilderImpl.java:36)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.createContainers(CuratorFrameworkImpl.java:295)
+	at kd.bos.zk.CuratorFrameworkWrapper.createContainers(CuratorFrameworkWrapper.java:90)
+	at org.apache.curator.framework.EnsureContainers.internalEnsure(EnsureContainers.java:70)
+	at org.apache.curator.framework.EnsureContainers.ensure(EnsureContainers.java:54)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.ensurePath(PathChildrenCache.java:590)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.rebuild(PathChildrenCache.java:330)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.start(PathChildrenCache.java:307)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.start(PathChildrenCache.java:255)
+	at kd.bos.config.client.zk.ZooKeeperConfigurationSource.start(ZooKeeperConfigurationSource.java:134)
+	at kd.bos.config.client.zk.ZookeeperConfiguration.<init>(ZookeeperConfiguration.java:22)
+	at kd.bos.config.client.zk.ZookeeperConfigService.setConfigAppName(ZookeeperConfigService.java:31)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.initVar(ConfigurationFactoryNew.java:173)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.init(ConfigurationFactoryNew.java:113)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.<init>(ConfigurationFactoryNew.java:64)
+	at kd.bos.config.client.ConfigurationFactory.<clinit>(ConfigurationFactory.java:17)
+	at kd.bos.framework.lifecycle.services.ConfigurationService.start(ConfigurationService.java:23)
+	at kd.bos.service.bootstrap.Booter.main(Booter.java:55)
+	at kd.cosmic.debug.tools.CosmicLauncher.start(CosmicLauncher.java:129)
+	at k3w4.cosmic.debug.DebugApplication.main(DebugApplication.java:40)
+2025-05-15 23:22:32.170  INFO   --- [main] c.a.dubbo.common.logger.LoggerFactory    : using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2025-05-15 23:23:59.919  INFO   --- [main] kd.bos.extension.ExtensionFactory        : load extension class from jar:file:/D:/postgresql/Test/mservice/lib/mservice-cosmic/lib/bos/bos-framework-cosmicconnector-7.0.jar!/META-INF/kd/bos/extension/kd.bos.framework.lifecycle.SysServiceLayer
+2025-05-15 23:23:59.928  INFO   --- [main] kd.bos.extension.ExtensionFactory        : load extension class from jar:file:/D:/postgresql/Test/mservice/lib/mservice-cosmic/lib/bos/bos-framework-foundation-7.0.jar!/META-INF/kd/bos/extension/kd.bos.framework.lifecycle.SysServiceLayer
+2025-05-15 23:24:00.242  INFO   --- [main] kd.bos.extension.ExtensionFactory        : load extension class from jar:file:/D:/postgresql/Test/mservice/lib/mservice-cosmic/lib/bos/bos-config-client-7.0.jar!/META-INF/kd/bos/extension/kd.bos.config.client.ConfigService
+2025-05-15 23:24:02.212  INFO   --- [main] o.a.c.f.imps.CuratorFrameworkImpl        : Starting
+2025-05-15 23:24:02.356  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:zookeeper.version=3.9.2-e454e8c7283100c7caec6dcae2bc82aaecb63023, built on 2024-02-12 20:59 UTC
+2025-05-15 23:24:02.356  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:host.name=LAPTOP-IL8INI1O
+2025-05-15 23:24:02.356  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.version=1.8.0_152
+2025-05-15 23:24:02.357  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.vendor=Oracle Corporation
+2025-05-15 23:24:02.357  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.home=D:\SoftWare\JDK\jdk8\jre
+2025-05-15 23:24:02.357  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.class.path=C:\Users\云深\.gradle\.tmp\gradle-javaexec-classpath5246699414015909534.jar
+2025-05-15 23:24:02.357  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.library.path=D:\SoftWare\JDK\jdk8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\SoftWare\JDK\jdk8\bin;D:\SoftWare\Cudaextra\bin;D:\SoftWare\Cudaextra\libnvvp;D:\SoftWare\anaconda;D:\SoftWare\anaconda\Library\mingw-w64\bin;D:\SoftWare\anaconda\Library\usr\bin;D:\SoftWare\anaconda\Library\bin;D:\SoftWare\anaconda\Scripts;D:\SoftWare\VMWARE\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\SoftWare\MATLAB\bin;C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.3.0\;D:\python3.12\Scripts\;D:\python3.12\;C:\Users\云深\AppData\Local\Microsoft\WindowsApps;D:\SoftWare\PyCharm 2025.1\bin;;D:\SoftWare\cursor\cursor\resources\app\bin;D:\SoftWare\vscode\Microsoft VS Code\bin;D:\SoftWare\IDEA\IntelliJ IDEA 2023.2.8\bin;;.
+2025-05-15 23:24:02.357  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.io.tmpdir=C:\Users\云深\AppData\Local\Temp\
+2025-05-15 23:24:02.357  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.compiler=<NA>
+2025-05-15 23:24:02.357  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.name=Windows 10
+2025-05-15 23:24:02.357  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.arch=amd64
+2025-05-15 23:24:02.357  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.version=10.0
+2025-05-15 23:24:02.357  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:user.name=ys
+2025-05-15 23:24:02.358  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:user.home=C:\Users\云深
+2025-05-15 23:24:02.358  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:user.dir=D:\workspace\cosmic
+2025-05-15 23:24:02.358  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.memory.free=200MB
+2025-05-15 23:24:02.358  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.memory.max=3580MB
+2025-05-15 23:24:02.358  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.memory.total=674MB
+2025-05-15 23:24:02.427  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Initiating client connection, connectString=10.0.0.2:2182 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@6cd64b3f
+2025-05-15 23:24:03.711  INFO   --- [main] org.apache.zookeeper.common.X509Util     : Default TLS protocol is TLSv1.2, supported TLS protocols are [SSLv2Hello, SSLv3, TLSv1, TLSv1.1, TLSv1.2]
+2025-05-15 23:24:03.816  INFO   --- [main] org.apache.zookeeper.ClientCnxnSocket    : jute.maxbuffer value is 1048575 Bytes
+2025-05-15 23:24:03.939  INFO   --- [main] org.apache.zookeeper.ClientCnxn          : zookeeper.request.timeout value is 0. feature enabled=false
+2025-05-15 23:24:03.946  INFO   --- [main-SendThread(10.0.0.2:2182)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server /10.0.0.2:2182.
+2025-05-15 23:24:03.949  INFO   --- [main-SendThread(10.0.0.2:2182)] org.apache.zookeeper.ClientCnxn          : Socket connection established, initiating session, client: /10.0.0.2:54309, server: /10.0.0.2:2182
+2025-05-15 23:24:03.989  INFO   --- [main-SendThread(10.0.0.2:2182)] org.apache.zookeeper.ClientCnxn          : Session establishment complete on server /10.0.0.2:2182, session id = 0x1000bc89112000e, negotiated timeout = 60000
+2025-05-15 23:24:04.093  INFO   --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: CONNECTED
+2025-05-15 23:24:04.109  INFO   --- [main] o.a.c.f.imps.CuratorFrameworkImpl        : Default schema
+2025-05-15 23:24:04.118  INFO   --- [main-EventThread] o.a.c.framework.imps.EnsembleTracker     : New config event received: {}
+2025-05-15 23:24:04.118  INFO   --- [main-EventThread] o.a.c.framework.imps.EnsembleTracker     : New config event received: {}
+2025-05-15 23:24:04.787 ERROR   --- [main] kd.bos.zk.CuratorFrameworkWrapper        : path: /cosmic/config/common/var
+org.apache.zookeeper.KeeperException$NoAuthException: KeeperErrorCode = NoAuth for /cosmic
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:119)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:53)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1869)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1893)
+	at org.apache.curator.utils.ZKPaths.mkdirs(ZKPaths.java:334)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl$2.call(ExistsBuilderImpl.java:231)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl$2.call(ExistsBuilderImpl.java:225)
+	at org.apache.curator.RetryLoop.callWithRetry(RetryLoop.java:94)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.pathInForeground(ExistsBuilderImpl.java:222)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.forPath(ExistsBuilderImpl.java:207)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.forPath(ExistsBuilderImpl.java:36)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.createContainers(CuratorFrameworkImpl.java:295)
+	at kd.bos.zk.CuratorFrameworkWrapper.createContainers(CuratorFrameworkWrapper.java:90)
+	at org.apache.curator.framework.EnsureContainers.internalEnsure(EnsureContainers.java:70)
+	at org.apache.curator.framework.EnsureContainers.ensure(EnsureContainers.java:54)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.ensurePath(PathChildrenCache.java:590)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.rebuild(PathChildrenCache.java:330)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.start(PathChildrenCache.java:307)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.start(PathChildrenCache.java:255)
+	at kd.bos.config.client.zk.ZooKeeperConfigurationSource.start(ZooKeeperConfigurationSource.java:134)
+	at kd.bos.config.client.zk.ZookeeperConfiguration.<init>(ZookeeperConfiguration.java:22)
+	at kd.bos.config.client.zk.ZookeeperConfigService.setConfigAppName(ZookeeperConfigService.java:31)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.initVar(ConfigurationFactoryNew.java:173)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.init(ConfigurationFactoryNew.java:113)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.<init>(ConfigurationFactoryNew.java:64)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at kd.bos.config.client.ConfigurationFactory.<clinit>(ConfigurationFactory.java:14)
+	at kd.bos.framework.lifecycle.services.ConfigurationService.start(ConfigurationService.java:23)
+	at kd.bos.service.bootstrap.Booter.main(Booter.java:55)
+	at kd.cosmic.debug.tools.CosmicLauncher.start(CosmicLauncher.java:129)
+	at k3w4.cosmic.debug.DebugApplication.main(DebugApplication.java:40)
+2025-05-15 23:24:05.601 ERROR   --- [main] k.b.config.client.ConfigurationFactory   : get ConfigurationFactory Impl from env error,will use default 
+kd.bos.exception.KDException: zookeeper config error: %s
+	at kd.bos.config.client.zk.ZookeeperConfiguration.<init>(ZookeeperConfiguration.java:24)
+	at kd.bos.config.client.zk.ZookeeperConfigService.setConfigAppName(ZookeeperConfigService.java:31)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.initVar(ConfigurationFactoryNew.java:173)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.init(ConfigurationFactoryNew.java:113)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.<init>(ConfigurationFactoryNew.java:64)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at kd.bos.config.client.ConfigurationFactory.<clinit>(ConfigurationFactory.java:14)
+	at kd.bos.framework.lifecycle.services.ConfigurationService.start(ConfigurationService.java:23)
+	at kd.bos.service.bootstrap.Booter.main(Booter.java:55)
+	at kd.cosmic.debug.tools.CosmicLauncher.start(CosmicLauncher.java:129)
+	at k3w4.cosmic.debug.DebugApplication.main(DebugApplication.java:40)
+Caused by: kd.bos.exception.KDException: start zookeeper failed
+	at kd.bos.config.client.zk.ZooKeeperConfigurationSource.start(ZooKeeperConfigurationSource.java:136)
+	at kd.bos.config.client.zk.ZookeeperConfiguration.<init>(ZookeeperConfiguration.java:22)
+	... 14 common frames omitted
+Caused by: kd.bos.exception.KDException: KeeperErrorCode = NoAuth for /cosmic
+	at kd.bos.zk.CuratorFrameworkWrapper.createContainers(CuratorFrameworkWrapper.java:93)
+	at org.apache.curator.framework.EnsureContainers.internalEnsure(EnsureContainers.java:70)
+	at org.apache.curator.framework.EnsureContainers.ensure(EnsureContainers.java:54)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.ensurePath(PathChildrenCache.java:590)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.rebuild(PathChildrenCache.java:330)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.start(PathChildrenCache.java:307)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.start(PathChildrenCache.java:255)
+	at kd.bos.config.client.zk.ZooKeeperConfigurationSource.start(ZooKeeperConfigurationSource.java:134)
+	... 15 common frames omitted
+Caused by: org.apache.zookeeper.KeeperException$NoAuthException: KeeperErrorCode = NoAuth for /cosmic
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:119)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:53)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1869)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1893)
+	at org.apache.curator.utils.ZKPaths.mkdirs(ZKPaths.java:334)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl$2.call(ExistsBuilderImpl.java:231)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl$2.call(ExistsBuilderImpl.java:225)
+	at org.apache.curator.RetryLoop.callWithRetry(RetryLoop.java:94)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.pathInForeground(ExistsBuilderImpl.java:222)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.forPath(ExistsBuilderImpl.java:207)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.forPath(ExistsBuilderImpl.java:36)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.createContainers(CuratorFrameworkImpl.java:295)
+	at kd.bos.zk.CuratorFrameworkWrapper.createContainers(CuratorFrameworkWrapper.java:90)
+	... 22 common frames omitted
+2025-05-15 23:24:05.699 ERROR   --- [main] kd.bos.zk.CuratorFrameworkWrapper        : path: /cosmic/config/common/var
+org.apache.zookeeper.KeeperException$NoAuthException: KeeperErrorCode = NoAuth for /cosmic
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:119)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:53)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1869)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1893)
+	at org.apache.curator.utils.ZKPaths.mkdirs(ZKPaths.java:334)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl$2.call(ExistsBuilderImpl.java:231)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl$2.call(ExistsBuilderImpl.java:225)
+	at org.apache.curator.RetryLoop.callWithRetry(RetryLoop.java:94)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.pathInForeground(ExistsBuilderImpl.java:222)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.forPath(ExistsBuilderImpl.java:207)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.forPath(ExistsBuilderImpl.java:36)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.createContainers(CuratorFrameworkImpl.java:295)
+	at kd.bos.zk.CuratorFrameworkWrapper.createContainers(CuratorFrameworkWrapper.java:90)
+	at org.apache.curator.framework.EnsureContainers.internalEnsure(EnsureContainers.java:70)
+	at org.apache.curator.framework.EnsureContainers.ensure(EnsureContainers.java:54)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.ensurePath(PathChildrenCache.java:590)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.rebuild(PathChildrenCache.java:330)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.start(PathChildrenCache.java:307)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.start(PathChildrenCache.java:255)
+	at kd.bos.config.client.zk.ZooKeeperConfigurationSource.start(ZooKeeperConfigurationSource.java:134)
+	at kd.bos.config.client.zk.ZookeeperConfiguration.<init>(ZookeeperConfiguration.java:22)
+	at kd.bos.config.client.zk.ZookeeperConfigService.setConfigAppName(ZookeeperConfigService.java:31)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.initVar(ConfigurationFactoryNew.java:173)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.init(ConfigurationFactoryNew.java:113)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.<init>(ConfigurationFactoryNew.java:64)
+	at kd.bos.config.client.ConfigurationFactory.<clinit>(ConfigurationFactory.java:17)
+	at kd.bos.framework.lifecycle.services.ConfigurationService.start(ConfigurationService.java:23)
+	at kd.bos.service.bootstrap.Booter.main(Booter.java:55)
+	at kd.cosmic.debug.tools.CosmicLauncher.start(CosmicLauncher.java:129)
+	at k3w4.cosmic.debug.DebugApplication.main(DebugApplication.java:40)
+2025-05-15 23:24:05.816  INFO   --- [Thread-1] org.apache.zookeeper.ZooKeeper           : Session: 0x1000bc89112000e closed
+2025-05-15 23:25:30.367  INFO   --- [main] c.a.dubbo.common.logger.LoggerFactory    : using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2025-05-15 23:26:07.987  INFO   --- [main] kd.bos.extension.ExtensionFactory        : load extension class from jar:file:/D:/postgresql/Test/mservice/lib/mservice-cosmic/lib/bos/bos-framework-cosmicconnector-7.0.jar!/META-INF/kd/bos/extension/kd.bos.framework.lifecycle.SysServiceLayer
+2025-05-15 23:26:07.996  INFO   --- [main] kd.bos.extension.ExtensionFactory        : load extension class from jar:file:/D:/postgresql/Test/mservice/lib/mservice-cosmic/lib/bos/bos-framework-foundation-7.0.jar!/META-INF/kd/bos/extension/kd.bos.framework.lifecycle.SysServiceLayer
+2025-05-15 23:26:08.306  INFO   --- [main] kd.bos.extension.ExtensionFactory        : load extension class from jar:file:/D:/postgresql/Test/mservice/lib/mservice-cosmic/lib/bos/bos-config-client-7.0.jar!/META-INF/kd/bos/extension/kd.bos.config.client.ConfigService
+2025-05-15 23:26:10.118  INFO   --- [main] o.a.c.f.imps.CuratorFrameworkImpl        : Starting
+2025-05-15 23:26:10.270  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:zookeeper.version=3.9.2-e454e8c7283100c7caec6dcae2bc82aaecb63023, built on 2024-02-12 20:59 UTC
+2025-05-15 23:26:10.271  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:host.name=LAPTOP-IL8INI1O
+2025-05-15 23:26:10.271  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.version=1.8.0_152
+2025-05-15 23:26:10.271  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.vendor=Oracle Corporation
+2025-05-15 23:26:10.271  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.home=D:\SoftWare\JDK\jdk8\jre
+2025-05-15 23:26:10.272  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.class.path=C:\Users\云深\.gradle\.tmp\gradle-javaexec-classpath2300806332441856576.jar
+2025-05-15 23:26:10.272  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.library.path=D:\SoftWare\JDK\jdk8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\SoftWare\JDK\jdk8\bin;D:\SoftWare\Cudaextra\bin;D:\SoftWare\Cudaextra\libnvvp;D:\SoftWare\anaconda;D:\SoftWare\anaconda\Library\mingw-w64\bin;D:\SoftWare\anaconda\Library\usr\bin;D:\SoftWare\anaconda\Library\bin;D:\SoftWare\anaconda\Scripts;D:\SoftWare\VMWARE\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\SoftWare\MATLAB\bin;C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.3.0\;D:\python3.12\Scripts\;D:\python3.12\;C:\Users\云深\AppData\Local\Microsoft\WindowsApps;D:\SoftWare\PyCharm 2025.1\bin;;D:\SoftWare\cursor\cursor\resources\app\bin;D:\SoftWare\vscode\Microsoft VS Code\bin;D:\SoftWare\IDEA\IntelliJ IDEA 2023.2.8\bin;;.
+2025-05-15 23:26:10.272  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.io.tmpdir=C:\Users\云深\AppData\Local\Temp\
+2025-05-15 23:26:10.272  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.compiler=<NA>
+2025-05-15 23:26:10.272  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.name=Windows 10
+2025-05-15 23:26:10.273  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.arch=amd64
+2025-05-15 23:26:10.273  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.version=10.0
+2025-05-15 23:26:10.273  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:user.name=ys
+2025-05-15 23:26:10.273  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:user.home=C:\Users\云深
+2025-05-15 23:26:10.273  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:user.dir=D:\workspace\cosmic
+2025-05-15 23:26:10.274  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.memory.free=190MB
+2025-05-15 23:26:10.274  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.memory.max=3580MB
+2025-05-15 23:26:10.274  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.memory.total=674MB
+2025-05-15 23:26:10.345  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Initiating client connection, connectString=10.0.0.2:2182 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@6cd64b3f
+2025-05-15 23:26:11.540  INFO   --- [main] org.apache.zookeeper.common.X509Util     : Default TLS protocol is TLSv1.2, supported TLS protocols are [SSLv2Hello, SSLv3, TLSv1, TLSv1.1, TLSv1.2]
+2025-05-15 23:26:11.643  INFO   --- [main] org.apache.zookeeper.ClientCnxnSocket    : jute.maxbuffer value is 1048575 Bytes
+2025-05-15 23:26:11.739  INFO   --- [main] org.apache.zookeeper.ClientCnxn          : zookeeper.request.timeout value is 0. feature enabled=false
+2025-05-15 23:26:11.742  INFO   --- [main-SendThread(10.0.0.2:2182)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server /10.0.0.2:2182.
+2025-05-15 23:26:11.745  INFO   --- [main-SendThread(10.0.0.2:2182)] org.apache.zookeeper.ClientCnxn          : Socket connection established, initiating session, client: /10.0.0.2:54936, server: /10.0.0.2:2182
+2025-05-15 23:26:11.782  INFO   --- [main-SendThread(10.0.0.2:2182)] org.apache.zookeeper.ClientCnxn          : Session establishment complete on server /10.0.0.2:2182, session id = 0x1000bc89112000f, negotiated timeout = 60000
+2025-05-15 23:26:11.859  INFO   --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: CONNECTED
+2025-05-15 23:26:11.874  INFO   --- [main] o.a.c.f.imps.CuratorFrameworkImpl        : Default schema
+2025-05-15 23:26:11.886  INFO   --- [main-EventThread] o.a.c.framework.imps.EnsembleTracker     : New config event received: {}
+2025-05-15 23:26:11.886  INFO   --- [main-EventThread] o.a.c.framework.imps.EnsembleTracker     : New config event received: {}
+2025-05-15 23:26:12.658 ERROR   --- [main] kd.bos.zk.CuratorFrameworkWrapper        : path: /cosmic/config/common/var
+org.apache.zookeeper.KeeperException$NoAuthException: KeeperErrorCode = NoAuth for /cosmic
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:119)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:53)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1869)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1893)
+	at org.apache.curator.utils.ZKPaths.mkdirs(ZKPaths.java:334)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl$2.call(ExistsBuilderImpl.java:231)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl$2.call(ExistsBuilderImpl.java:225)
+	at org.apache.curator.RetryLoop.callWithRetry(RetryLoop.java:94)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.pathInForeground(ExistsBuilderImpl.java:222)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.forPath(ExistsBuilderImpl.java:207)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.forPath(ExistsBuilderImpl.java:36)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.createContainers(CuratorFrameworkImpl.java:295)
+	at kd.bos.zk.CuratorFrameworkWrapper.createContainers(CuratorFrameworkWrapper.java:90)
+	at org.apache.curator.framework.EnsureContainers.internalEnsure(EnsureContainers.java:70)
+	at org.apache.curator.framework.EnsureContainers.ensure(EnsureContainers.java:54)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.ensurePath(PathChildrenCache.java:590)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.rebuild(PathChildrenCache.java:330)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.start(PathChildrenCache.java:307)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.start(PathChildrenCache.java:255)
+	at kd.bos.config.client.zk.ZooKeeperConfigurationSource.start(ZooKeeperConfigurationSource.java:134)
+	at kd.bos.config.client.zk.ZookeeperConfiguration.<init>(ZookeeperConfiguration.java:22)
+	at kd.bos.config.client.zk.ZookeeperConfigService.setConfigAppName(ZookeeperConfigService.java:31)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.initVar(ConfigurationFactoryNew.java:173)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.init(ConfigurationFactoryNew.java:113)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.<init>(ConfigurationFactoryNew.java:64)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at kd.bos.config.client.ConfigurationFactory.<clinit>(ConfigurationFactory.java:14)
+	at kd.bos.framework.lifecycle.services.ConfigurationService.start(ConfigurationService.java:23)
+	at kd.bos.service.bootstrap.Booter.main(Booter.java:55)
+	at kd.cosmic.debug.tools.CosmicLauncher.start(CosmicLauncher.java:129)
+	at k3w4.cosmic.debug.DebugApplication.main(DebugApplication.java:40)
+2025-05-15 23:26:13.476 ERROR   --- [main] k.b.config.client.ConfigurationFactory   : get ConfigurationFactory Impl from env error,will use default 
+kd.bos.exception.KDException: zookeeper config error: %s
+	at kd.bos.config.client.zk.ZookeeperConfiguration.<init>(ZookeeperConfiguration.java:24)
+	at kd.bos.config.client.zk.ZookeeperConfigService.setConfigAppName(ZookeeperConfigService.java:31)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.initVar(ConfigurationFactoryNew.java:173)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.init(ConfigurationFactoryNew.java:113)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.<init>(ConfigurationFactoryNew.java:64)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at kd.bos.config.client.ConfigurationFactory.<clinit>(ConfigurationFactory.java:14)
+	at kd.bos.framework.lifecycle.services.ConfigurationService.start(ConfigurationService.java:23)
+	at kd.bos.service.bootstrap.Booter.main(Booter.java:55)
+	at kd.cosmic.debug.tools.CosmicLauncher.start(CosmicLauncher.java:129)
+	at k3w4.cosmic.debug.DebugApplication.main(DebugApplication.java:40)
+Caused by: kd.bos.exception.KDException: start zookeeper failed
+	at kd.bos.config.client.zk.ZooKeeperConfigurationSource.start(ZooKeeperConfigurationSource.java:136)
+	at kd.bos.config.client.zk.ZookeeperConfiguration.<init>(ZookeeperConfiguration.java:22)
+	... 14 common frames omitted
+Caused by: kd.bos.exception.KDException: KeeperErrorCode = NoAuth for /cosmic
+	at kd.bos.zk.CuratorFrameworkWrapper.createContainers(CuratorFrameworkWrapper.java:93)
+	at org.apache.curator.framework.EnsureContainers.internalEnsure(EnsureContainers.java:70)
+	at org.apache.curator.framework.EnsureContainers.ensure(EnsureContainers.java:54)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.ensurePath(PathChildrenCache.java:590)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.rebuild(PathChildrenCache.java:330)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.start(PathChildrenCache.java:307)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.start(PathChildrenCache.java:255)
+	at kd.bos.config.client.zk.ZooKeeperConfigurationSource.start(ZooKeeperConfigurationSource.java:134)
+	... 15 common frames omitted
+Caused by: org.apache.zookeeper.KeeperException$NoAuthException: KeeperErrorCode = NoAuth for /cosmic
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:119)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:53)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1869)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1893)
+	at org.apache.curator.utils.ZKPaths.mkdirs(ZKPaths.java:334)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl$2.call(ExistsBuilderImpl.java:231)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl$2.call(ExistsBuilderImpl.java:225)
+	at org.apache.curator.RetryLoop.callWithRetry(RetryLoop.java:94)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.pathInForeground(ExistsBuilderImpl.java:222)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.forPath(ExistsBuilderImpl.java:207)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.forPath(ExistsBuilderImpl.java:36)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.createContainers(CuratorFrameworkImpl.java:295)
+	at kd.bos.zk.CuratorFrameworkWrapper.createContainers(CuratorFrameworkWrapper.java:90)
+	... 22 common frames omitted
+2025-05-15 23:26:13.568 ERROR   --- [main] kd.bos.zk.CuratorFrameworkWrapper        : path: /cosmic/config/common/var
+org.apache.zookeeper.KeeperException$NoAuthException: KeeperErrorCode = NoAuth for /cosmic
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:119)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:53)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1869)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1893)
+	at org.apache.curator.utils.ZKPaths.mkdirs(ZKPaths.java:334)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl$2.call(ExistsBuilderImpl.java:231)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl$2.call(ExistsBuilderImpl.java:225)
+	at org.apache.curator.RetryLoop.callWithRetry(RetryLoop.java:94)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.pathInForeground(ExistsBuilderImpl.java:222)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.forPath(ExistsBuilderImpl.java:207)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.forPath(ExistsBuilderImpl.java:36)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.createContainers(CuratorFrameworkImpl.java:295)
+	at kd.bos.zk.CuratorFrameworkWrapper.createContainers(CuratorFrameworkWrapper.java:90)
+	at org.apache.curator.framework.EnsureContainers.internalEnsure(EnsureContainers.java:70)
+	at org.apache.curator.framework.EnsureContainers.ensure(EnsureContainers.java:54)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.ensurePath(PathChildrenCache.java:590)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.rebuild(PathChildrenCache.java:330)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.start(PathChildrenCache.java:307)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.start(PathChildrenCache.java:255)
+	at kd.bos.config.client.zk.ZooKeeperConfigurationSource.start(ZooKeeperConfigurationSource.java:134)
+	at kd.bos.config.client.zk.ZookeeperConfiguration.<init>(ZookeeperConfiguration.java:22)
+	at kd.bos.config.client.zk.ZookeeperConfigService.setConfigAppName(ZookeeperConfigService.java:31)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.initVar(ConfigurationFactoryNew.java:173)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.init(ConfigurationFactoryNew.java:113)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.<init>(ConfigurationFactoryNew.java:64)
+	at kd.bos.config.client.ConfigurationFactory.<clinit>(ConfigurationFactory.java:17)
+	at kd.bos.framework.lifecycle.services.ConfigurationService.start(ConfigurationService.java:23)
+	at kd.bos.service.bootstrap.Booter.main(Booter.java:55)
+	at kd.cosmic.debug.tools.CosmicLauncher.start(CosmicLauncher.java:129)
+	at k3w4.cosmic.debug.DebugApplication.main(DebugApplication.java:40)
+2025-05-15 23:26:13.683  INFO   --- [Thread-1] org.apache.zookeeper.ZooKeeper           : Session: 0x1000bc89112000f closed
+2025-05-15 23:26:54.919  INFO   --- [main] c.a.dubbo.common.logger.LoggerFactory    : using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2025-05-15 23:27:42.897  INFO   --- [main] c.a.dubbo.common.logger.LoggerFactory    : using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2025-05-15 23:28:23.717  INFO   --- [main] kd.bos.extension.ExtensionFactory        : load extension class from jar:file:/D:/postgresql/Test/mservice/lib/mservice-cosmic/lib/bos/bos-framework-cosmicconnector-7.0.jar!/META-INF/kd/bos/extension/kd.bos.framework.lifecycle.SysServiceLayer
+2025-05-15 23:28:23.720  INFO   --- [main] kd.bos.extension.ExtensionFactory        : load extension class from jar:file:/D:/postgresql/Test/mservice/lib/mservice-cosmic/lib/bos/bos-framework-foundation-7.0.jar!/META-INF/kd/bos/extension/kd.bos.framework.lifecycle.SysServiceLayer
+2025-05-15 23:28:23.784  INFO   --- [main] kd.bos.extension.ExtensionFactory        : load extension class from jar:file:/D:/postgresql/Test/mservice/lib/mservice-cosmic/lib/bos/bos-config-client-7.0.jar!/META-INF/kd/bos/extension/kd.bos.config.client.ConfigService
+2025-05-15 23:28:24.020  INFO   --- [main] o.a.c.f.imps.CuratorFrameworkImpl        : Starting
+2025-05-15 23:28:24.045  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:zookeeper.version=3.9.2-e454e8c7283100c7caec6dcae2bc82aaecb63023, built on 2024-02-12 20:59 UTC
+2025-05-15 23:28:24.046  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:host.name=LAPTOP-IL8INI1O
+2025-05-15 23:28:24.046  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.version=1.8.0_152
+2025-05-15 23:28:24.046  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.vendor=Oracle Corporation
+2025-05-15 23:28:24.046  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.home=D:\SoftWare\JDK\jdk8\jre
+2025-05-15 23:28:24.047  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.class.path=C:\Users\云深\.gradle\.tmp\gradle-javaexec-classpath1587059890226122953.jar
+2025-05-15 23:28:24.047  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.library.path=D:\SoftWare\JDK\jdk8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\SoftWare\JDK\jdk8\bin;D:\SoftWare\Cudaextra\bin;D:\SoftWare\Cudaextra\libnvvp;D:\SoftWare\anaconda;D:\SoftWare\anaconda\Library\mingw-w64\bin;D:\SoftWare\anaconda\Library\usr\bin;D:\SoftWare\anaconda\Library\bin;D:\SoftWare\anaconda\Scripts;D:\SoftWare\VMWARE\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\SoftWare\MATLAB\bin;C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.3.0\;D:\python3.12\Scripts\;D:\python3.12\;C:\Users\云深\AppData\Local\Microsoft\WindowsApps;D:\SoftWare\PyCharm 2025.1\bin;;D:\SoftWare\cursor\cursor\resources\app\bin;D:\SoftWare\vscode\Microsoft VS Code\bin;D:\SoftWare\IDEA\IntelliJ IDEA 2023.2.8\bin;;.
+2025-05-15 23:28:24.047  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.io.tmpdir=C:\Users\云深\AppData\Local\Temp\
+2025-05-15 23:28:24.047  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.compiler=<NA>
+2025-05-15 23:28:24.047  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.name=Windows 10
+2025-05-15 23:28:24.047  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.arch=amd64
+2025-05-15 23:28:24.047  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.version=10.0
+2025-05-15 23:28:24.047  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:user.name=ys
+2025-05-15 23:28:24.047  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:user.home=C:\Users\云深
+2025-05-15 23:28:24.047  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:user.dir=D:\workspace\cosmic
+2025-05-15 23:28:24.047  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.memory.free=185MB
+2025-05-15 23:28:24.047  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.memory.max=3580MB
+2025-05-15 23:28:24.047  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.memory.total=674MB
+2025-05-15 23:28:24.056  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Initiating client connection, connectString=10.0.0.2:2182 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@6cd64b3f
+2025-05-15 23:28:24.676  INFO   --- [main] org.apache.zookeeper.common.X509Util     : Default TLS protocol is TLSv1.2, supported TLS protocols are [SSLv2Hello, SSLv3, TLSv1, TLSv1.1, TLSv1.2]
+2025-05-15 23:28:24.734  INFO   --- [main] org.apache.zookeeper.ClientCnxnSocket    : jute.maxbuffer value is 1048575 Bytes
+2025-05-15 23:28:24.751  INFO   --- [main] org.apache.zookeeper.ClientCnxn          : zookeeper.request.timeout value is 0. feature enabled=false
+2025-05-15 23:28:24.754  INFO   --- [main-SendThread(10.0.0.2:2182)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server /10.0.0.2:2182.
+2025-05-15 23:28:24.755  INFO   --- [main-SendThread(10.0.0.2:2182)] org.apache.zookeeper.ClientCnxn          : Socket connection established, initiating session, client: /10.0.0.2:55589, server: /10.0.0.2:2182
+2025-05-15 23:28:24.776  INFO   --- [main] o.a.c.f.imps.CuratorFrameworkImpl        : Default schema
+2025-05-15 23:28:24.786  INFO   --- [main-SendThread(10.0.0.2:2182)] org.apache.zookeeper.ClientCnxn          : Session establishment complete on server /10.0.0.2:2182, session id = 0x1000bc891120010, negotiated timeout = 60000
+2025-05-15 23:28:24.800  INFO   --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: CONNECTED
+2025-05-15 23:28:24.814  INFO   --- [main-EventThread] o.a.c.framework.imps.EnsembleTracker     : New config event received: {}
+2025-05-15 23:28:24.814  INFO   --- [main-EventThread] o.a.c.framework.imps.EnsembleTracker     : New config event received: {}
+2025-05-15 23:28:24.861 ERROR   --- [main] kd.bos.zk.CuratorFrameworkWrapper        : path: /cosmic/config/common/var
+org.apache.zookeeper.KeeperException$NoAuthException: KeeperErrorCode = NoAuth for /cosmic
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:119)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:53)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1869)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1893)
+	at org.apache.curator.utils.ZKPaths.mkdirs(ZKPaths.java:334)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl$2.call(ExistsBuilderImpl.java:231)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl$2.call(ExistsBuilderImpl.java:225)
+	at org.apache.curator.RetryLoop.callWithRetry(RetryLoop.java:94)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.pathInForeground(ExistsBuilderImpl.java:222)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.forPath(ExistsBuilderImpl.java:207)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.forPath(ExistsBuilderImpl.java:36)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.createContainers(CuratorFrameworkImpl.java:295)
+	at kd.bos.zk.CuratorFrameworkWrapper.createContainers(CuratorFrameworkWrapper.java:90)
+	at org.apache.curator.framework.EnsureContainers.internalEnsure(EnsureContainers.java:70)
+	at org.apache.curator.framework.EnsureContainers.ensure(EnsureContainers.java:54)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.ensurePath(PathChildrenCache.java:590)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.rebuild(PathChildrenCache.java:330)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.start(PathChildrenCache.java:307)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.start(PathChildrenCache.java:255)
+	at kd.bos.config.client.zk.ZooKeeperConfigurationSource.start(ZooKeeperConfigurationSource.java:134)
+	at kd.bos.config.client.zk.ZookeeperConfiguration.<init>(ZookeeperConfiguration.java:22)
+	at kd.bos.config.client.zk.ZookeeperConfigService.setConfigAppName(ZookeeperConfigService.java:31)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.initVar(ConfigurationFactoryNew.java:173)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.init(ConfigurationFactoryNew.java:113)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.<init>(ConfigurationFactoryNew.java:64)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at kd.bos.config.client.ConfigurationFactory.<clinit>(ConfigurationFactory.java:14)
+	at kd.bos.framework.lifecycle.services.ConfigurationService.start(ConfigurationService.java:23)
+	at kd.bos.service.bootstrap.Booter.main(Booter.java:55)
+	at kd.cosmic.debug.tools.CosmicLauncher.start(CosmicLauncher.java:129)
+	at k3w4.cosmic.debug.DebugApplication.main(DebugApplication.java:40)
+2025-05-15 23:28:24.927 ERROR   --- [main] k.b.config.client.ConfigurationFactory   : get ConfigurationFactory Impl from env error,will use default 
+kd.bos.exception.KDException: zookeeper config error: %s
+	at kd.bos.config.client.zk.ZookeeperConfiguration.<init>(ZookeeperConfiguration.java:24)
+	at kd.bos.config.client.zk.ZookeeperConfigService.setConfigAppName(ZookeeperConfigService.java:31)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.initVar(ConfigurationFactoryNew.java:173)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.init(ConfigurationFactoryNew.java:113)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.<init>(ConfigurationFactoryNew.java:64)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at kd.bos.config.client.ConfigurationFactory.<clinit>(ConfigurationFactory.java:14)
+	at kd.bos.framework.lifecycle.services.ConfigurationService.start(ConfigurationService.java:23)
+	at kd.bos.service.bootstrap.Booter.main(Booter.java:55)
+	at kd.cosmic.debug.tools.CosmicLauncher.start(CosmicLauncher.java:129)
+	at k3w4.cosmic.debug.DebugApplication.main(DebugApplication.java:40)
+Caused by: kd.bos.exception.KDException: start zookeeper failed
+	at kd.bos.config.client.zk.ZooKeeperConfigurationSource.start(ZooKeeperConfigurationSource.java:136)
+	at kd.bos.config.client.zk.ZookeeperConfiguration.<init>(ZookeeperConfiguration.java:22)
+	... 14 common frames omitted
+Caused by: kd.bos.exception.KDException: KeeperErrorCode = NoAuth for /cosmic
+	at kd.bos.zk.CuratorFrameworkWrapper.createContainers(CuratorFrameworkWrapper.java:93)
+	at org.apache.curator.framework.EnsureContainers.internalEnsure(EnsureContainers.java:70)
+	at org.apache.curator.framework.EnsureContainers.ensure(EnsureContainers.java:54)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.ensurePath(PathChildrenCache.java:590)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.rebuild(PathChildrenCache.java:330)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.start(PathChildrenCache.java:307)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.start(PathChildrenCache.java:255)
+	at kd.bos.config.client.zk.ZooKeeperConfigurationSource.start(ZooKeeperConfigurationSource.java:134)
+	... 15 common frames omitted
+Caused by: org.apache.zookeeper.KeeperException$NoAuthException: KeeperErrorCode = NoAuth for /cosmic
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:119)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:53)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1869)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1893)
+	at org.apache.curator.utils.ZKPaths.mkdirs(ZKPaths.java:334)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl$2.call(ExistsBuilderImpl.java:231)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl$2.call(ExistsBuilderImpl.java:225)
+	at org.apache.curator.RetryLoop.callWithRetry(RetryLoop.java:94)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.pathInForeground(ExistsBuilderImpl.java:222)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.forPath(ExistsBuilderImpl.java:207)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.forPath(ExistsBuilderImpl.java:36)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.createContainers(CuratorFrameworkImpl.java:295)
+	at kd.bos.zk.CuratorFrameworkWrapper.createContainers(CuratorFrameworkWrapper.java:90)
+	... 22 common frames omitted
+2025-05-15 23:28:24.942 ERROR   --- [main] kd.bos.zk.CuratorFrameworkWrapper        : path: /cosmic/config/common/var
+org.apache.zookeeper.KeeperException$NoAuthException: KeeperErrorCode = NoAuth for /cosmic
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:119)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:53)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1869)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1893)
+	at org.apache.curator.utils.ZKPaths.mkdirs(ZKPaths.java:334)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl$2.call(ExistsBuilderImpl.java:231)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl$2.call(ExistsBuilderImpl.java:225)
+	at org.apache.curator.RetryLoop.callWithRetry(RetryLoop.java:94)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.pathInForeground(ExistsBuilderImpl.java:222)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.forPath(ExistsBuilderImpl.java:207)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.forPath(ExistsBuilderImpl.java:36)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.createContainers(CuratorFrameworkImpl.java:295)
+	at kd.bos.zk.CuratorFrameworkWrapper.createContainers(CuratorFrameworkWrapper.java:90)
+	at org.apache.curator.framework.EnsureContainers.internalEnsure(EnsureContainers.java:70)
+	at org.apache.curator.framework.EnsureContainers.ensure(EnsureContainers.java:54)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.ensurePath(PathChildrenCache.java:590)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.rebuild(PathChildrenCache.java:330)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.start(PathChildrenCache.java:307)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.start(PathChildrenCache.java:255)
+	at kd.bos.config.client.zk.ZooKeeperConfigurationSource.start(ZooKeeperConfigurationSource.java:134)
+	at kd.bos.config.client.zk.ZookeeperConfiguration.<init>(ZookeeperConfiguration.java:22)
+	at kd.bos.config.client.zk.ZookeeperConfigService.setConfigAppName(ZookeeperConfigService.java:31)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.initVar(ConfigurationFactoryNew.java:173)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.init(ConfigurationFactoryNew.java:113)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.<init>(ConfigurationFactoryNew.java:64)
+	at kd.bos.config.client.ConfigurationFactory.<clinit>(ConfigurationFactory.java:17)
+	at kd.bos.framework.lifecycle.services.ConfigurationService.start(ConfigurationService.java:23)
+	at kd.bos.service.bootstrap.Booter.main(Booter.java:55)
+	at kd.cosmic.debug.tools.CosmicLauncher.start(CosmicLauncher.java:129)
+	at k3w4.cosmic.debug.DebugApplication.main(DebugApplication.java:40)
+2025-05-15 23:28:25.063  INFO   --- [Thread-1] org.apache.zookeeper.ZooKeeper           : Session: 0x1000bc891120010 closed
+2025-05-15 23:28:25.063  INFO   --- [main-EventThread] org.apache.zookeeper.ClientCnxn          : EventThread shut down for session: 0x1000bc891120010
+2025-05-15 23:29:40.131  INFO   --- [main] c.a.dubbo.common.logger.LoggerFactory    : using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2025-05-15 23:29:40.698  INFO   --- [main] kd.bos.extension.ExtensionFactory        : load extension class from jar:file:/D:/postgresql/Test/mservice/lib/mservice-cosmic/lib/bos/bos-framework-cosmicconnector-7.0.jar!/META-INF/kd/bos/extension/kd.bos.framework.lifecycle.SysServiceLayer
+2025-05-15 23:29:40.699  INFO   --- [main] kd.bos.extension.ExtensionFactory        : load extension class from jar:file:/D:/postgresql/Test/mservice/lib/mservice-cosmic/lib/bos/bos-framework-foundation-7.0.jar!/META-INF/kd/bos/extension/kd.bos.framework.lifecycle.SysServiceLayer
+2025-05-15 23:29:40.743  INFO   --- [main] kd.bos.extension.ExtensionFactory        : load extension class from jar:file:/D:/postgresql/Test/mservice/lib/mservice-cosmic/lib/bos/bos-config-client-7.0.jar!/META-INF/kd/bos/extension/kd.bos.config.client.ConfigService
+2025-05-15 23:29:40.951  INFO   --- [main] o.a.c.f.imps.CuratorFrameworkImpl        : Starting
+2025-05-15 23:29:40.970  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:zookeeper.version=3.9.2-e454e8c7283100c7caec6dcae2bc82aaecb63023, built on 2024-02-12 20:59 UTC
+2025-05-15 23:29:40.970  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:host.name=LAPTOP-IL8INI1O
+2025-05-15 23:29:40.971  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.version=1.8.0_152
+2025-05-15 23:29:40.971  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.vendor=Oracle Corporation
+2025-05-15 23:29:40.971  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.home=D:\SoftWare\JDK\jdk8\jre
+2025-05-15 23:29:40.971  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.class.path=C:\Users\云深\.gradle\.tmp\gradle-javaexec-classpath8577153246816475733.jar
+2025-05-15 23:29:40.971  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.library.path=D:\SoftWare\JDK\jdk8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\SoftWare\JDK\jdk8\bin;D:\SoftWare\Cudaextra\bin;D:\SoftWare\Cudaextra\libnvvp;D:\SoftWare\anaconda;D:\SoftWare\anaconda\Library\mingw-w64\bin;D:\SoftWare\anaconda\Library\usr\bin;D:\SoftWare\anaconda\Library\bin;D:\SoftWare\anaconda\Scripts;D:\SoftWare\VMWARE\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\SoftWare\MATLAB\bin;C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.3.0\;D:\python3.12\Scripts\;D:\python3.12\;C:\Users\云深\AppData\Local\Microsoft\WindowsApps;D:\SoftWare\PyCharm 2025.1\bin;;D:\SoftWare\cursor\cursor\resources\app\bin;D:\SoftWare\vscode\Microsoft VS Code\bin;D:\SoftWare\IDEA\IntelliJ IDEA 2023.2.8\bin;;.
+2025-05-15 23:29:40.971  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.io.tmpdir=C:\Users\云深\AppData\Local\Temp\
+2025-05-15 23:29:40.971  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.compiler=<NA>
+2025-05-15 23:29:40.971  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.name=Windows 10
+2025-05-15 23:29:40.971  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.arch=amd64
+2025-05-15 23:29:40.971  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.version=10.0
+2025-05-15 23:29:40.971  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:user.name=ys
+2025-05-15 23:29:40.971  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:user.home=C:\Users\云深
+2025-05-15 23:29:40.971  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:user.dir=D:\workspace\cosmic
+2025-05-15 23:29:40.972  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.memory.free=210MB
+2025-05-15 23:29:40.972  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.memory.max=3580MB
+2025-05-15 23:29:40.972  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.memory.total=673MB
+2025-05-15 23:29:40.979  INFO   --- [main] org.apache.zookeeper.ZooKeeper           : Initiating client connection, connectString=10.0.0.2:2182 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@ac20bb4
+2025-05-15 23:29:41.522  INFO   --- [main] org.apache.zookeeper.common.X509Util     : Default TLS protocol is TLSv1.2, supported TLS protocols are [SSLv2Hello, SSLv3, TLSv1, TLSv1.1, TLSv1.2]
+2025-05-15 23:29:41.548  INFO   --- [main] org.apache.zookeeper.ClientCnxnSocket    : jute.maxbuffer value is 1048575 Bytes
+2025-05-15 23:29:41.570  INFO   --- [main] org.apache.zookeeper.ClientCnxn          : zookeeper.request.timeout value is 0. feature enabled=false
+2025-05-15 23:29:41.573  INFO   --- [main-SendThread(10.0.0.2:2182)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server /10.0.0.2:2182.
+2025-05-15 23:29:41.575  INFO   --- [main-SendThread(10.0.0.2:2182)] org.apache.zookeeper.ClientCnxn          : Socket connection established, initiating session, client: /10.0.0.2:55987, server: /10.0.0.2:2182
+2025-05-15 23:29:41.606  INFO   --- [main] o.a.c.f.imps.CuratorFrameworkImpl        : Default schema
+2025-05-15 23:29:41.618  INFO   --- [main-SendThread(10.0.0.2:2182)] org.apache.zookeeper.ClientCnxn          : Session establishment complete on server /10.0.0.2:2182, session id = 0x1000bc891120011, negotiated timeout = 60000
+2025-05-15 23:29:41.631  INFO   --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: CONNECTED
+2025-05-15 23:29:41.641  INFO   --- [main-EventThread] o.a.c.framework.imps.EnsembleTracker     : New config event received: {}
+2025-05-15 23:29:41.641  INFO   --- [main-EventThread] o.a.c.framework.imps.EnsembleTracker     : New config event received: {}
+2025-05-15 23:29:41.676 ERROR   --- [main] kd.bos.zk.CuratorFrameworkWrapper        : path: /cosmic/config/common/var
+org.apache.zookeeper.KeeperException$NoAuthException: KeeperErrorCode = NoAuth for /cosmic
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:119)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:53)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1869)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1893)
+	at org.apache.curator.utils.ZKPaths.mkdirs(ZKPaths.java:334)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl$2.call(ExistsBuilderImpl.java:231)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl$2.call(ExistsBuilderImpl.java:225)
+	at org.apache.curator.RetryLoop.callWithRetry(RetryLoop.java:94)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.pathInForeground(ExistsBuilderImpl.java:222)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.forPath(ExistsBuilderImpl.java:207)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.forPath(ExistsBuilderImpl.java:36)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.createContainers(CuratorFrameworkImpl.java:295)
+	at kd.bos.zk.CuratorFrameworkWrapper.createContainers(CuratorFrameworkWrapper.java:90)
+	at org.apache.curator.framework.EnsureContainers.internalEnsure(EnsureContainers.java:70)
+	at org.apache.curator.framework.EnsureContainers.ensure(EnsureContainers.java:54)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.ensurePath(PathChildrenCache.java:590)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.rebuild(PathChildrenCache.java:330)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.start(PathChildrenCache.java:307)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.start(PathChildrenCache.java:255)
+	at kd.bos.config.client.zk.ZooKeeperConfigurationSource.start(ZooKeeperConfigurationSource.java:134)
+	at kd.bos.config.client.zk.ZookeeperConfiguration.<init>(ZookeeperConfiguration.java:22)
+	at kd.bos.config.client.zk.ZookeeperConfigService.setConfigAppName(ZookeeperConfigService.java:31)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.initVar(ConfigurationFactoryNew.java:173)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.init(ConfigurationFactoryNew.java:113)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.<init>(ConfigurationFactoryNew.java:64)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at kd.bos.config.client.ConfigurationFactory.<clinit>(ConfigurationFactory.java:14)
+	at kd.bos.framework.lifecycle.services.ConfigurationService.start(ConfigurationService.java:23)
+	at kd.bos.service.bootstrap.Booter.main(Booter.java:55)
+	at kd.cosmic.debug.tools.CosmicLauncher.start(CosmicLauncher.java:129)
+	at k3w4.cosmic.debug.DebugApplication.main(DebugApplication.java:40)
+2025-05-15 23:29:41.724 ERROR   --- [main] k.b.config.client.ConfigurationFactory   : get ConfigurationFactory Impl from env error,will use default 
+kd.bos.exception.KDException: zookeeper config error: %s
+	at kd.bos.config.client.zk.ZookeeperConfiguration.<init>(ZookeeperConfiguration.java:24)
+	at kd.bos.config.client.zk.ZookeeperConfigService.setConfigAppName(ZookeeperConfigService.java:31)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.initVar(ConfigurationFactoryNew.java:173)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.init(ConfigurationFactoryNew.java:113)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.<init>(ConfigurationFactoryNew.java:64)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at kd.bos.config.client.ConfigurationFactory.<clinit>(ConfigurationFactory.java:14)
+	at kd.bos.framework.lifecycle.services.ConfigurationService.start(ConfigurationService.java:23)
+	at kd.bos.service.bootstrap.Booter.main(Booter.java:55)
+	at kd.cosmic.debug.tools.CosmicLauncher.start(CosmicLauncher.java:129)
+	at k3w4.cosmic.debug.DebugApplication.main(DebugApplication.java:40)
+Caused by: kd.bos.exception.KDException: start zookeeper failed
+	at kd.bos.config.client.zk.ZooKeeperConfigurationSource.start(ZooKeeperConfigurationSource.java:136)
+	at kd.bos.config.client.zk.ZookeeperConfiguration.<init>(ZookeeperConfiguration.java:22)
+	... 14 common frames omitted
+Caused by: kd.bos.exception.KDException: KeeperErrorCode = NoAuth for /cosmic
+	at kd.bos.zk.CuratorFrameworkWrapper.createContainers(CuratorFrameworkWrapper.java:93)
+	at org.apache.curator.framework.EnsureContainers.internalEnsure(EnsureContainers.java:70)
+	at org.apache.curator.framework.EnsureContainers.ensure(EnsureContainers.java:54)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.ensurePath(PathChildrenCache.java:590)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.rebuild(PathChildrenCache.java:330)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.start(PathChildrenCache.java:307)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.start(PathChildrenCache.java:255)
+	at kd.bos.config.client.zk.ZooKeeperConfigurationSource.start(ZooKeeperConfigurationSource.java:134)
+	... 15 common frames omitted
+Caused by: org.apache.zookeeper.KeeperException$NoAuthException: KeeperErrorCode = NoAuth for /cosmic
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:119)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:53)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1869)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1893)
+	at org.apache.curator.utils.ZKPaths.mkdirs(ZKPaths.java:334)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl$2.call(ExistsBuilderImpl.java:231)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl$2.call(ExistsBuilderImpl.java:225)
+	at org.apache.curator.RetryLoop.callWithRetry(RetryLoop.java:94)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.pathInForeground(ExistsBuilderImpl.java:222)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.forPath(ExistsBuilderImpl.java:207)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.forPath(ExistsBuilderImpl.java:36)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.createContainers(CuratorFrameworkImpl.java:295)
+	at kd.bos.zk.CuratorFrameworkWrapper.createContainers(CuratorFrameworkWrapper.java:90)
+	... 22 common frames omitted
+2025-05-15 23:29:41.736 ERROR   --- [main] kd.bos.zk.CuratorFrameworkWrapper        : path: /cosmic/config/common/var
+org.apache.zookeeper.KeeperException$NoAuthException: KeeperErrorCode = NoAuth for /cosmic
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:119)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:53)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1869)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1893)
+	at org.apache.curator.utils.ZKPaths.mkdirs(ZKPaths.java:334)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl$2.call(ExistsBuilderImpl.java:231)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl$2.call(ExistsBuilderImpl.java:225)
+	at org.apache.curator.RetryLoop.callWithRetry(RetryLoop.java:94)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.pathInForeground(ExistsBuilderImpl.java:222)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.forPath(ExistsBuilderImpl.java:207)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.forPath(ExistsBuilderImpl.java:36)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.createContainers(CuratorFrameworkImpl.java:295)
+	at kd.bos.zk.CuratorFrameworkWrapper.createContainers(CuratorFrameworkWrapper.java:90)
+	at org.apache.curator.framework.EnsureContainers.internalEnsure(EnsureContainers.java:70)
+	at org.apache.curator.framework.EnsureContainers.ensure(EnsureContainers.java:54)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.ensurePath(PathChildrenCache.java:590)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.rebuild(PathChildrenCache.java:330)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.start(PathChildrenCache.java:307)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.start(PathChildrenCache.java:255)
+	at kd.bos.config.client.zk.ZooKeeperConfigurationSource.start(ZooKeeperConfigurationSource.java:134)
+	at kd.bos.config.client.zk.ZookeeperConfiguration.<init>(ZookeeperConfiguration.java:22)
+	at kd.bos.config.client.zk.ZookeeperConfigService.setConfigAppName(ZookeeperConfigService.java:31)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.initVar(ConfigurationFactoryNew.java:173)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.init(ConfigurationFactoryNew.java:113)
+	at kd.bos.config.client.impl.ConfigurationFactoryNew.<init>(ConfigurationFactoryNew.java:64)
+	at kd.bos.config.client.ConfigurationFactory.<clinit>(ConfigurationFactory.java:17)
+	at kd.bos.framework.lifecycle.services.ConfigurationService.start(ConfigurationService.java:23)
+	at kd.bos.service.bootstrap.Booter.main(Booter.java:55)
+	at kd.cosmic.debug.tools.CosmicLauncher.start(CosmicLauncher.java:129)
+	at k3w4.cosmic.debug.DebugApplication.main(DebugApplication.java:40)
