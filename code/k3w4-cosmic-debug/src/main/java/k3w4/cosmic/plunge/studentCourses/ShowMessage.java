@@ -20,4 +20,6 @@ public class ShowMessage extends AbstractBasePlugIn implements Plugin {
         // 展示消息
         this.getView().showMessage("你好" + nowUser + "欢迎来到学生信息管理页面");
     }
+
+
 }
