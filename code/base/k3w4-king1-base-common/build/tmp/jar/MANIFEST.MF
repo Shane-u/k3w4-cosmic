@@ -1,16 +1,16 @@
 Manifest-Version: 1.0
-Jar-Id: 
-Project-Name: k3w4-king1-base-common
-Build-Tool: Gradle 7.6.3
-Build-Date: 2025-05-16 09:03:30
-Built-By: Kingdee Cosmic Developer Tools
-Build-Num: 20250516090330127
-App-Name: 
-Git-Branch: 
-Cloud-Name: 
 Group-Name: k3w4.cosmic
+Project-Name: k3w4-king1-base-common
 Bundle-Version: 1.0.0
-Git-Commit-Hash: 
+Build-Num: 20250517161448322
+Build-Date: 2025-05-17 16:14:48
+Build-Jdk: 17.0.10
+Built-By: Kingdee Cosmic Developer Tools
+Build-Tool: Gradle 7.6.3
+Git-Commit-Hash: 0bdb27d8fdb6343c48d7b7948d8cbccc6815926a
+Git-Branch: master
+Cloud-Name: 
+App-Name: 
+Jar-Id: 
 Build-Image: 
-Build-Jdk: 1.8.0_152
 

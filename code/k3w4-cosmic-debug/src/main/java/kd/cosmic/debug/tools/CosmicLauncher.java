@@ -43,8 +43,9 @@ public final class CosmicLauncher {
      */
     private static final String DEFAULT_COSMIT_HOME_PATH = System.getProperty("user.home").replaceAll("\\\\", "/") + "/cosmic/home";
 	
-	private static final String PROJECT_HOME = "D:/workspace/cosmic";
-	
+//	private static final String PROJECT_HOME = "D:/workspace/cosmic";
+	private static final String PROJECT_HOME = "E:/Project_Demo/Java/k3w4-cosmic"; // 需要在本地修改
+
 	private static final String LOCAL_IP = "127.0.0.1";
 	
 	public static String localHostName;
