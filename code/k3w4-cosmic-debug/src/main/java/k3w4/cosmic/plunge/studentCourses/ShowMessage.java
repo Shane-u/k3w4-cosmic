@@ -18,6 +18,6 @@ public class ShowMessage extends AbstractBasePlugIn implements Plugin {
         String nowUser = rc.getUserName();
 
         // 展示消息
-        this.getView().showMessage("欢迎来到学生信息管理页面" + nowUser);
+        this.getView().showMessage("你好" + nowUser + "欢迎来到学生信息管理页面");
     }
 }
