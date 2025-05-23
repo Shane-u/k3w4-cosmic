@@ -43,9 +43,8 @@ public final class CosmicLauncher {
      */
     private static final String DEFAULT_COSMIT_HOME_PATH = System.getProperty("user.home").replaceAll("\\\\", "/") + "/cosmic/home";
 	
-//	private static final String PROJECT_HOME = "D:/workspace/cosmic";
-	private static final String PROJECT_HOME = "E:/Project_Demo/Java/k3w4-cosmic"; // 需要在本地修改
-
+	private static final String PROJECT_HOME = "D:/workspace/cosmic";
+	
 	private static final String LOCAL_IP = "127.0.0.1";
 	
 	public static String localHostName;
@@ -99,10 +98,10 @@ public final class CosmicLauncher {
 			//当本地开发且连接轻量级环境时，可使用以下默认配置
 	        setConfigUrl("127.0.0.1:2182");
 	        setMcServerUrl("http://127.0.0.1:8091");
-//	        setFsServerUrl("127.0.0.1", 8100);
-//	        setImageServerUrl("127.0.0.1", 8100);
+	        setFsServerUrl("10.0.0.2", 8100);
+	        setImageServerUrl("10.0.0.2", 8100);
 	        
-//	        setEnableLightWeightDeploy(true);
+	        setEnableLightWeightDeploy(true);
 	        setDubboHostConfig(LOCAL_IP, 28888, 30880);
 //	        set("login.type", "STANDALONE");
 	        setMqConsumerRegister(false, null);
