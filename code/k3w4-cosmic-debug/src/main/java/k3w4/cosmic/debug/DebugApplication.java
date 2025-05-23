@@ -29,11 +29,12 @@ public class DebugApplication {
 //        cosmic.setMcServerUrl("http://127.0.0.1:8090");
         cosmic.setMcServerUrl("http://10.0.0.2:8091/"); 
         
-//        cosmic.setFsServerUrl("127.0.0.1", 8100);
-//        cosmic.setImageServerUrl("127.0.0.1", 8100);
+        cosmic.setFsServerUrl("10.0.0.2", 8100);
+        cosmic.setImageServerUrl("10.0.0.2", 8100);
         
         //自定义本地苍穹调试服务的端口
         cosmic.setCosmicWebPort(8881);
+        // http://127.0.0.1:8881/ierp
 //        cosmic.setDubboConfig(false, true, true);
         cosmic.start();
         
